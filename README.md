@@ -1,5 +1,5 @@
 # OpenRCT2 plugin boilerplate
-This boilerplate project allows you to create a multi-file ES6 OpenRCT2 plugin and have it transpiled to a single ES5 file (Which OpenRCT2 supports).
+This boilerplate project (starting point to create OpenRCT2 plugins with) allows you to create a multi-file ES6 OpenRCT2 plugin and have it transpiled to a single ES5 file (Which OpenRCT2 supports).
 
 ## Installation
 - Clone or download the project and put it somewhere on your computer.
