@@ -3,7 +3,7 @@ This boilerplate project (starting point to create OpenRCT2 plugins with) allows
 
 ## Installation
 - Clone or download the project and put it somewhere on your computer.
-- Run `npm install` to install all the required packages.
+- Run `npm install` to install all the required packages (Download Node if npm is not recognized).
 - In the package.json and `src/index.js`, replace `MYPLUGINNAME` with the name of your plugin, and replace `OPENRCT2PATH` with the path to your OpenRCT2 directory.
 
 ## Build
