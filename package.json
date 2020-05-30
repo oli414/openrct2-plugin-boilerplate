@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "rollup ./src/index.js --file ./build/index.js && babel ./build/index.js --out-file ./build/index.js && cpy ./build/index.js OPENRCT2PATH/plugin/ --rename=MYPLUGINNAME.js",
+    "build": "rollup ./src/index.js --file ./build/MYPLUGINNAME.js && babel ./build/MYPLUGINNAME.js --out-file ./build/MYPLUGINNAME.js && cpy ./build/MYPLUGINNAME.js OPENRCT2PATH/plugin/ --rename=MYPLUGINNAME.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "npm-watch"
   },
