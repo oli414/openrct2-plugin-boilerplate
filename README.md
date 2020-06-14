@@ -15,3 +15,10 @@ With hotreloading enabled and the watch command being used you no longer have to
 
 ## Development
 You can create your project in the `src` directory. The `index.js` file is the root of your project, from there feel free to [import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) other modules (files).
+
+## Helper Suggestions
+Check out OliUI if you plan on incorporating a custom window in your plugin. OliUI takes away the hassle that comes with having to position every single UI element manually and instead lets you focus on the functionality.
+OliUI is an ES6 module that is compatible with this boilerplate. Simple copy [**the OliUI module file**](https://github.com/oli414/OliUI/blob/master/build/OliUI.js) into your project's `src/` folder and import the module.
+```javascript
+import Oui from "./OliUI";
+```
