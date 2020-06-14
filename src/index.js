@@ -9,9 +9,10 @@ function main() {
 }
 
 registerPlugin({
-    name: 'MYPLUGINNAME',
-    version: '1.0',
-    authors: [''],
-    type: 'local',
+    name: "MYPLUGINNAME",
+    version: "0.1",
+    licence: "MIT", // Make sure to set the license prior to release
+    authors: [""],
+    type: "local",
     main: main
 });
