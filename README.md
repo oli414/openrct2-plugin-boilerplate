@@ -2,7 +2,8 @@
 This boilerplate project (starting point to create OpenRCT2 plugins with) allows you to create a multi-file ES6 OpenRCT2 plugin and have it transpiled to a single ES5 file (Which OpenRCT2 supports).
 
 ## Installation
-- Clone or download the project and put it somewhere on your computer.
+- Click "use this template" to create a repo using this boilerplate.
+- Pull or download your project onto your computer.
 - Run `npm install` to install all the required packages (Download [Node.js](https://nodejs.org/) if npm is not recognized).
 - In the package.json and `src/index.js`, replace `MYPLUGINNAME` with the name of your plugin, and replace `OPENRCT2PATH` with the path to your OpenRCT2 directory.
 
